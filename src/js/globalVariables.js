@@ -23,10 +23,8 @@ export const array = [['`', 'ё', 'Backquote', '~', 'Ё'], [1, 1, 'Digit1', '!',
   ['Ctrl', 'Ctrl', 'ControlRight'],
 ];
 
-export const mainElement = document.createElement('main');
-export const textareaElement = document.createElement('textarea');
-export const keyboardElement = document.createElement('div');
-export const descriptionKeyboardElement = document.createElement('div');
+export const helperMessage = `Для смены языка нажмите <br>комбинацию клавишь:
+<br>для Win: CTRL + ALT<br>для Mac: CTRL + OPTION`;
 
 export function specialButton(i) {
   if (i !== 13 && i !== 14 && i !== 27 && i !== 28 && i !== 41 && i !== 42 && i !== 53 && i !== 54 && i !== 55

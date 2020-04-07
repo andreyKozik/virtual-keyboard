@@ -1,38 +1,27 @@
 {
-    "env": {
-        "browser": true,
-        "node": true
-    },
-    "extends": ["airbnb-base"],
-    "globals": {
-        "document": false
-    },
-    "parserOptions": {
-    },
-    "rules": {
-        "linebreak-style" : ["error", "windows"],
-        "max-len": [
-            "error",
-            {
-                "code": 120
-            }
-        ],
-        "prefer-destructuring": [
-            "error",
-            {
-                "object": true,
-                "array": false
-            }
-        ],
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-                "js": "never",
-                "jsx": "never",
-                "ts": "never",
-                "tsx": "never"
-            }
-        ]
-    }
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["airbnb-base"],
+  "globals": {
+    "document": false
+  },
+  "parserOptions": {},
+  "rules": {
+    "linebreak-style": ["error", "windows"],
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "prefer-destructuring": [
+      "error",
+      {
+        "object": true,
+        "array": false
+      }
+    ]
+  }
 }

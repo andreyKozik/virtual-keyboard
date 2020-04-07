@@ -1,5 +1,5 @@
 // collect the virtual keyboard and add the third element to the array id array for each element
-export class KeyboardBuilder {
+export class CreateButtons {
   constructor(array) {
     this.array = array;
   }
