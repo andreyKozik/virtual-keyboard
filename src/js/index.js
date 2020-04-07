@@ -1,7 +1,7 @@
 import {
   array, map, specialButton, specialCharacters,
 } from './globalVariables';
-import { CreateButtons } from "./createButtons";
+import { CreateButtons } from './createButtons';
 import { tab } from './createSpecialButton/tab';
 import { space } from './createSpecialButton/space';
 import { backspace } from './createSpecialButton/backspace';
