@@ -23,7 +23,8 @@ export const array = [['`', 'ё', 'Backquote', '~', 'Ё'], [1, 1, 'Digit1', '!',
   ['Ctrl', 'Ctrl', 'ControlRight'],
 ];
 
-export const helperMessage = `Клавиатура создавалась в операционной системе Windows<br> Для смены языка нажмите <br>комбинацию клавишь:
+export const helperMessage = `Клавиатура создавалась<br> в операционной системе Windows<br> 
+Для смены языка нажмите <br>комбинацию клавишь:
 <br>для Win: CTRL + ALT<br>для Mac: CTRL + OPTION`;
 
 export function specialButton(i) {
